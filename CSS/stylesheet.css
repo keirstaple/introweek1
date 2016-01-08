@@ -1,0 +1,30 @@
+.header img{
+    height:120px;
+    width:120px;
+    overflow:hidden;
+    border-radius:75%;
+    position: relative;
+}
+
+.header{
+  background-color: #99dcff;
+  padding: 10px;
+  color: white;
+  font-family: Helvetica;
+  font-weight: bold;
+  text-align: left;
+  border: solid;
+  border-color: #00b2b3;
+}
+
+.projects img{
+  height: 150px;
+  width: 150px;
+  float:left;
+  padding-right: 5px;
+}
+
+.projects h4{
+  text-align: center;
+  size: 30px;
+}
