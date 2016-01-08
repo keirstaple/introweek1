@@ -2,19 +2,27 @@
     height:120px;
     width:120px;
     overflow:hidden;
-    border-radius:75%;
+    border-radius:40%;
     position: relative;
 }
 
 .header{
-  background-color: #99dcff;
+  background: -webkit-linear-gradient(left, #99dcff , #00e6ac);
   padding: 10px;
+  padding-bottom: 5px;
   color: white;
   font-family: Helvetica;
   font-weight: bold;
   text-align: left;
   border: solid;
-  border-color: #00b2b3;
+  border-left-color: #00e6ac;
+  border-top-color: #00e6ac;
+  border-bottom-color: #99dcff;
+  border-right-color: #99dcff;
+}
+
+.projects{
+padding-top: 0px;
 }
 
 .projects img{
@@ -24,7 +32,7 @@
   padding-right: 5px;
 }
 
-.projects h4{
+.projects h3{
   text-align: center;
   size: 30px;
 }
