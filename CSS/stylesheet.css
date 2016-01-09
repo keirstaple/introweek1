@@ -1,3 +1,17 @@
+body {
+  background-color: #F8F8F8;
+}
+.header{
+  background: -webkit-linear-gradient(left, #99dcff , #00e6ac);
+  padding: 10px;
+  padding-bottom: 5px;
+  border: solid;
+  border-left-color: #00e6ac;
+  border-top-color: #00e6ac;
+  border-bottom-color: #99dcff;
+  border-right-color: #99dcff;
+}
+
 .header img{
     height:120px;
     width:120px;
@@ -6,19 +20,34 @@
     position: relative;
 }
 
-.header{
-  background: -webkit-linear-gradient(left, #99dcff , #00e6ac);
-  padding: 10px;
-  padding-bottom: 5px;
+.header h2{
+  color: white;
+  font-family: Helvetica;
+  text-align: center;
+  margin-top: 30px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.header h4{
   color: white;
   font-family: Helvetica;
   font-weight: bold;
-  text-align: left;
-  border: solid;
-  border-left-color: #00e6ac;
-  border-top-color: #00e6ac;
-  border-bottom-color: #99dcff;
-  border-right-color: #99dcff;
+  text-align: center;
+  padding-right: 0;
+  padding-left: 0;
+  opacity: 0.85;
+}
+
+.row-eq-height{
+  display: flex;
+}
+
+.col-sm-4{
+  background-color: white;
+  border: 1px solid;
+  border-color: #66757f;
+  margin: 5px;
 }
 
 .projects{
@@ -32,7 +61,33 @@ padding-top: 0px;
   padding-right: 5px;
 }
 
+.projects h2{
+  text-align: left;
+  color: black;
+}
+
 .projects h3{
-  text-align: center;
+  text-align: left;
+  color: #66757f;
   size: 30px;
+}
+
+.about{
+  height:100px;
+  width:100px;
+  overflow:hidden;
+  border-radius:50%;
+  position: relative;
+  float: left;
+  margin-right: 30px;
+}
+
+.about-me h3{
+    text-align: left;
+    color: #66757f;
+    size: 30px;
+}
+
+span{
+  font-style:italic;
 }
